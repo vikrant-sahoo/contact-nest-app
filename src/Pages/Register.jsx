@@ -25,7 +25,7 @@ const Register = () => {
             const errs = Validation(values);
             setErrors(errs);
             if (errs.name === "" && errs.email === "" && errs.password === "") {
-                  axios.post("http://localhost:4000/contact-nest/register", values).then(res => {
+                  axios.post("https://contact-nest-app.vercel.app/contact-nest/register", values).then(res => {
                         if (res.data.success) {
                               toast.success("Account created successfully.", {
                                     position: "top-right",

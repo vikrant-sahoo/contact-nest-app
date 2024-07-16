@@ -41,7 +41,7 @@ const Contacts = () => {
                   confirmButtonText: "Yes, delete it!"
             }).then((result) => {
                   if (result.isConfirmed) {
-                        axios.delete(`http://localhost:4000/contact-nest/contact/${id}`, {
+                        axios.delete(`https://contact-nest-app.vercel.app/contact-nest/contact/${id}`, {
                               headers: {
                                     Authorization: `Bearer ${localStorage.getItem("token")}`
                               }
@@ -90,7 +90,7 @@ const Contacts = () => {
       ]
       useEffect(() => {
             setLoading(true);
-            axios.get("http://localhost:4000/contact-nest/contacts", {
+            axios.get("https://contact-nest-app.vercel.app/contact-nest/contacts", {
                   headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
                   }

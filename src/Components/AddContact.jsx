@@ -21,7 +21,7 @@ const AddContact = () => {
 
       const handleSubmit = (e) => {
             e.preventDefault();
-            axios.post("http://localhost:4000/contact-nest/add-contact", values, {
+            axios.post("https://contact-nest-app.vercel.app/contact-nest/add-contact", values, {
                   headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
                   }

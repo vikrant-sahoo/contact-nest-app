@@ -16,8 +16,8 @@ export default function Validation(values) {
 
       if (values.email === "") {
             errors.email = "Email cannot be Empty.";
-      // } else if (!email_pattern.test(values.email)) {
-            // errors.email = "Invalid Email!";
+      } else if (!email_pattern.test(values.email)) {
+            errors.email = "Invalid Email!";
       } else {
             errors.email = "";
       };
