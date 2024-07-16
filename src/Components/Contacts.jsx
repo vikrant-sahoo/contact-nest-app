@@ -90,7 +90,7 @@ const Contacts = () => {
       ]
       useEffect(() => {
             setLoading(true);
-            axios.get("https://contact-nest-app.vercel.app/contact-nest/contacts", {
+            axios.get("https://contact-nest-server.vercel.app/contact-nest/contacts", {
                   headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
                   }
