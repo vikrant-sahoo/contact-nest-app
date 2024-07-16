@@ -39,3 +39,30 @@ textarea {
       height: 10vh;
       padding: 2%;
 }
+
+.loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 92vh;
+      width: 100%;
+      background-color: #f0f2f5;
+}
+
+.loader::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8); /* Semi-transparent overlay */
+      z-index: -1; /* Place behind the loader */
+}
+    
+.loader .CircleLoader {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      border-radius: 50%; /* Round edges */
+      padding: 20px; /* Space around the loader */
+      background-color: white; /* White background for the loader */
+}
