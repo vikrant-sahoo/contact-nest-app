@@ -27,7 +27,7 @@ const Login = () => {
             const errs = Validation(values);
             setErrors(errs);
             if (errs.email === "" && errs.password === "") {
-                  axios.post("https://contact-nest-app.vercel.app/contact-nest/login", values).then(res => {
+                  axios.post("https://contact-nest-server.vercel.app/contact-nest/login", values).then(res => {
                         if (res.data.success) {
                               toast.success("Login is Successful", {
                                     position: "top-right",

@@ -56,7 +56,7 @@ const router = createBrowserRouter([
 const App = () => {
       const [user, setUser] = useState();
       useEffect(() => {
-            axios.get("https://contact-nest-app.vercel.app/contact-nest/verify", {
+            axios.get("https://contact-nest-server.vercel.app/contact-nest/verify", {
                   headers: {
                         Authorization: `Bearer ${localStorage.getItem("token")}`
                   }

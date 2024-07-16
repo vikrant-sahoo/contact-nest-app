@@ -41,7 +41,7 @@ const Contacts = () => {
                   confirmButtonText: "Yes, delete it!"
             }).then((result) => {
                   if (result.isConfirmed) {
-                        axios.delete(`https://contact-nest-app.vercel.app/contact-nest/contact/${id}`, {
+                        axios.delete(`https://contact-nest-server.vercel.app/contact-nest/contact/${id}`, {
                               headers: {
                                     Authorization: `Bearer ${localStorage.getItem("token")}`
                               }
