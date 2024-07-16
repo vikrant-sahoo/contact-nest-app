@@ -60,13 +60,6 @@
       width: 100%;
 }
 
-span {
-      font-family: "Yatra One", system-ui;
-      font-size: x-large;
-      border: 3px solid black;
-      padding: 3px;
-}
-
 .error {
       color: red;
 }
