@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px;
+      background-color: black;
+      color: #fff;
+      padding-inline: 45px;
+}
+
+.navbar-left {
+      display: flex;
+      align-items: center;
+}
+
+.navbar-logo {
+      font-size: 1.8rem;
+      margin-right: 20px;
+      text-decoration: none;
+      color: white;
+      font-family: "Yatra One", system-ui;
+      border: 3px solid #fff;
+      padding: 3px;
+}
+
+.navbar-right {
+      display: flex;
+      align-items: center;
+}
+
+.navbar-link {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+}
+
+.navbar-link:hover {
+      text-decoration: underline;
+}

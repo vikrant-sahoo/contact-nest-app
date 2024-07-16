@@ -1,0 +1,29 @@
+* {
+      box-sizing: border-box;
+}
+
+.sidebar {
+      margin-top: 25%;
+}
+
+.sidebar-item {
+      width: 100%;
+      padding: 4% 0 4% 0;
+}
+
+.sidebar-link {
+      text-decoration: none;
+      color: black;
+      font-size: 1.4rem;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+}
+
+.icon {
+      margin: 4%;
+}
+
+.active {
+      background-color: #c7d5eb;
+}

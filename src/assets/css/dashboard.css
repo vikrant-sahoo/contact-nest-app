@@ -1,0 +1,33 @@
+.dashboard {
+      display: flex;
+      height: 90vh;
+}
+
+.dashboard .sidebar-container {
+      width: 20%;
+      border-right: 4px solid grey;
+}
+
+.dashboard .contact-container {
+      width: 80%;
+      background-color: #c7d5eb;
+}
+
+/* Contact List */
+.contact-list {
+      padding: 2%;
+      text-align: center;
+}
+
+.table-icon-1, .table-icon-2 {
+      margin: 0px 5px;
+      font-size: 1.1rem;
+}
+
+.table-icon-1 {
+      color: green;
+}
+
+.table-icon-2 {
+      color: red;
+}
