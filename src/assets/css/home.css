@@ -27,7 +27,7 @@
       line-height: 1.8;
 }
 
-span {
+.home-logo {
       font-family: "Yatra One", system-ui;
       font-size: x-large;
       border: 3px solid #fff;
